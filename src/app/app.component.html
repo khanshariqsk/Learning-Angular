@@ -1,32 +1,3 @@
-<!-- Pipes for Strings -->
-<h1>{{title | titlecase }}</h1>
-<h1>{{title | uppercase }}</h1>
-<h1>{{title | lowercase }}</h1>
-<h1>{{title | slice:2:6 }}</h1>
-<h1>{{arry | slice:1:3 }}</h1>
-<h1>{{person |json }}</h1>
+<!--Custom Pipes-->
 
-
-<!-- Pipes for number -->
-<h2>{{5.678 | number:'1.2-3'}}</h2> <!--'2-3' stands for min and max digit after decimal-->
-<h2>{{5.678 | number:'3.4-5'}}</h2>
-<h2>{{5.678 | number:'2.1-2'}}</h2>
-<h2>{{0.25 | percent}}</h2>
-
-<h2>{{0.25 | currency:"GBP"}}</h2>
-
-<h2>{{date | date:'short'}}</h2>
-<h2>{{date | date:'shortTime'}}</h2>
-<h2>{{date | date:'shortDate'}}</h2>
-
-<h2>{{date | date:'medium'}}</h2>
-<h2>{{date | date:'mediumTime'}}</h2>
-<h2>{{date | date:'mediumDate'}}</h2>
-
-<h2>{{date | date:'long'}}</h2>
-<h2>{{date | date:'longTime'}}</h2>
-<h2>{{date | date:'longDate'}}</h2>
-
-
-
-
+<h2>{{title | reverse}}</h2>
